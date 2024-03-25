@@ -38,11 +38,11 @@ repos:
           - --py311-plus
         id: pyupgrade
     repo: https://github.com/asottile/pyupgrade
-    rev: v3.15.1
+    rev: v3.15.2
   - hooks:
       - id: black
     repo: https://github.com/psf/black
-    rev: 24.2.0
+    rev: 24.3.0
   - hooks:
       - id: isort
     repo: https://github.com/PyCQA/isort
@@ -62,4 +62,4 @@ repos:
         stages:
           - push
     repo: https://github.com/commitizen-tools/commitizen
-    rev: v3.16.0
+    rev: v3.20.0
